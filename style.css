@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 30px;
+    background-color: #1A1A1A;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0 0 10px 10px;
+    align-items: center;
+}
+
+#botao {
+    background-color: #FFCC00;
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+
+#main-inicio {
+    background-color: #FFCC00;
+    padding: 100px;
+    text-align: center;
+    /* alinhar os elementos filhos ao centro */
+}
+
+.frase {
+    color: #333333;
+    font-weight: normal;
+    font-size: 35px;
+    flex-basis: 50%;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+h1,
+input {
+    display: inline-block;
+    /* definir os elementos filhos como inline-block */
+}
+
+#icone-mapa {
+    position: relative;
+    width: 2.5%;
+    left: 50px;
+    top: 9.5px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.form {
+    padding: 12px 20px 12px 30px;
+    border: none;
+    border-radius: 8px;
+    width: 500px;
+    height: 20px;
+    margin: 10px 0px 100px 0px;
+    border: 1px solid #9B9A98;
+}
+
+::placeholder {
+    position: relative;
+    left: 20px;
+    margin: 10px;
+    font-size: .9rem;
+    color: #9999B3;
+}
+
+#main-meio {
+    padding-top: 65px;
+}
+
+#main-meio img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+li img {
+    display: inline-block;
+    border-bottom: 2px solid #F3F3F3;
+    padding: 14px;
+}
+
+li h3 {
+    font-weight: normal;
+    color: #333333;
+    padding: 14px;
+}
+
+h2 {
+    color: #333333;
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+    text-align: center;
+}
